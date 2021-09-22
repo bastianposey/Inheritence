@@ -5,7 +5,9 @@ class Person:
         self.__tele = tele
 
     def print_person(self):
-        return self.__name, self.__address, self.__tele
+        print(self.__name)
+        print(self.__address)
+        print(self.__tele)
 
 class Customer(Person):
     def __init__(self, name, add, tele, cusnum, ml):
